@@ -14,10 +14,14 @@ func _ready() -> void:
 
 func _process(delta: float) -> void:
 	if current_song != &"":
-		if song_pool.get(current_song).get(1) != -1 and not crossfade:
+		if song_pool.get(current_song).get(1) == 0:
+			var current_pos = main_music_player.get_playback_position()
+			if current_pos == 0.0:
+				play_song(current_song)
+		elif song_pool.get(current_song).get(1) != -1 and not crossfade:
 			var current_pos = main_music_player.get_playback_position()
 			if current_pos >= song_pool.get(current_song).get(1):
-				main_music_player.seek(0)
+				play_song(current_song)
 
 func setup_music_players() -> void:
 	main_music_player = AudioStreamPlayer.new()

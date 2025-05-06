@@ -7,3 +7,11 @@ enum BusID {
 	UI,
 	AMBIENT
 }
+
+enum ProcessType {
+	CHOPPING,
+	BOILING,
+	GRINDING,
+	DISTILLING,
+	MIXING
+}

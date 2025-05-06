@@ -10,7 +10,19 @@ func load_audio() -> void:
 
 func load_ost() -> void:
 	# Add OST loads here
-	var song_list : Dictionary[int, Array] = {}
+	var song_list : Dictionary[int, Array] = {
+		0: [preload("res://assets/ost/music_day_0_and_6_dream.wav"), 0],
+		1: [preload("res://assets/ost/music_day_1_dream.wav"), 0],
+		2: [preload("res://assets/ost/music_day_2_dream.wav"), 0],
+		3: [preload("res://assets/ost/music_day_7_dream.wav"), 0],
+		4: [preload("res://assets/ost/music_gameplay.wav"), 0],
+		5: [preload("res://assets/ost/music_menu.wav"), 0],
+		6: [preload("res://assets/ost/music_tutorial.wav"), 0],
+		7: [preload("res://assets/ost/stinger_day_1.wav"), 0],
+		8: [preload("res://assets/ost/stinger_day_2.wav"), 0],
+		9: [preload("res://assets/ost/stinger_day_6.wav"), 0],
+		10: [preload("res://assets/ost/stinger_day_7.wav"), 0],
+	}
 	
 	for song in song_list.values():
 		song.get(0).resource_name = grab_name(song.get(0).resource_path)

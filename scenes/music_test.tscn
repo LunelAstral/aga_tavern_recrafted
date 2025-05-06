@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2ly2reseler1"]
+
+[ext_resource type="Script" uid="uid://cdjjgrt5cx6xd" path="res://scenes/music_test.gd" id="1_qat88"]
+
+[node name="MusicTest" type="Node"]
+script = ExtResource("1_qat88")
