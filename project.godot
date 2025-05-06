@@ -24,7 +24,11 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 [dialogic]
 
-directories/dch_directory={}
+directories/dch_directory={
+"aga": "res://gameplay/dialogic/characters/aga.dch",
+"felix": "res://gameplay/dialogic/characters/felix.dch",
+"ida": "res://gameplay/dialogic/characters/ida.dch"
+}
 directories/dtl_directory={}
 
 [display]

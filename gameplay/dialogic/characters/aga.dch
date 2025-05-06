@@ -1,0 +1,83 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+&"_translation_id": "",
+&"color": Color(1, 1, 1, 1),
+&"custom_info": {
+"sound_mood_default": "",
+"sound_moods": {},
+"style": ""
+},
+&"default_portrait": "stern",
+&"description": "",
+&"display_name": "Aga",
+&"mirror": false,
+&"nicknames": [""],
+&"offset": Vector2(0, 0),
+&"portraits": {
+"frown": {
+"export_overrides": {
+"image": "\"res://assets/textures/characters/aga/aga_frown.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"smile": {
+"export_overrides": {
+"image": "\"res://assets/textures/characters/aga/aga_smile.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"smile_talk": {
+"export_overrides": {
+"image": "\"res://assets/textures/characters/aga/aga_smiletalk.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"stern": {
+"export_overrides": {
+"image": "\"res://assets/textures/characters/aga/aga_stern.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"stern_talk": {
+"export_overrides": {
+"image": "\"res://assets/textures/characters/aga/aga_sterntalk.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"surprise": {
+"export_overrides": {
+"image": "\"res://assets/textures/characters/aga/aga_surprise.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"talk": {
+"export_overrides": {
+"image": "\"res://assets/textures/characters/aga/aga_talk.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+&"scale": 1.0
+}
