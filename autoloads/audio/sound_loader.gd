@@ -30,7 +30,26 @@ func load_ost() -> void:
 
 func load_sfx() -> void:
 	# Add SFX loads here
-	var sfx_list : Array[AudioStream] = []
+	var sfx_list : Array[AudioStream] = [
+		preload("res://assets/sfx/chime.wav"),
+		preload("res://assets/sfx/door.wav"),
+		preload("res://assets/sfx/sfx_ale_beer.wav"),
+		preload("res://assets/sfx/sfx_bottles.wav"),
+		preload("res://assets/sfx/sfx_day_0_dream_clinking_glass.wav"),
+		preload("res://assets/sfx/sfx_day_0_dream_fire_1.wav"),
+		preload("res://assets/sfx/sfx_day_0_go_downstairs.wav"),
+		preload("res://assets/sfx/sfx_day_0_water_trickles.wav"),
+		preload("res://assets/sfx/sfx_day_0_window_creaking.wav"),
+		preload("res://assets/sfx/sfx_deliver_drink.wav"),
+		preload("res://assets/sfx/sfx_knife_cut_1.wav"),
+		preload("res://assets/sfx/sfx_knife_cut_2.wav"),
+		preload("res://assets/sfx/sfx_knife_cut_3.wav"),
+		preload("res://assets/sfx/sfx_mortar.wav"),
+		preload("res://assets/sfx/sfx_mug_1.wav"),
+		preload("res://assets/sfx/sfx_mug_2.wav"),
+		preload("res://assets/sfx/sfx_mug_3.wav"),
+		preload("res://assets/sfx/sfx_rooster.wav"),
+	]
 	
 	for sfx in sfx_list:
 		sfx.resource_name = grab_name(sfx.resource_path)
@@ -38,7 +57,10 @@ func load_sfx() -> void:
 
 func load_ui() -> void:
 	# Add UI loads here
-	var ui_list : Array[AudioStream] = []
+	var ui_list : Array[AudioStream] = [
+		preload("res://assets/sfx/sfx_ui_menu_1.wav"),
+		preload("res://assets/sfx/sfx_ui_menu_2.wav"),
+	]
 	
 	for ui in ui_list:
 		ui.resource_name = grab_name(ui.resource_path)
