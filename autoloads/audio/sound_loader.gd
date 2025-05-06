@@ -11,17 +11,17 @@ func load_audio() -> void:
 func load_ost() -> void:
 	# Add OST loads here
 	var song_list : Dictionary[int, Array] = {
-		0: [preload("res://assets/ost/music_day_0_and_6_dream.wav"), 0],
-		1: [preload("res://assets/ost/music_day_1_dream.wav"), 0],
-		2: [preload("res://assets/ost/music_day_2_dream.wav"), 0],
-		3: [preload("res://assets/ost/music_day_7_dream.wav"), 0],
-		4: [preload("res://assets/ost/music_gameplay.wav"), 0],
-		5: [preload("res://assets/ost/music_menu.wav"), 0],
-		6: [preload("res://assets/ost/music_tutorial.wav"), 0],
-		7: [preload("res://assets/ost/stinger_day_1.wav"), 0],
-		8: [preload("res://assets/ost/stinger_day_2.wav"), 0],
-		9: [preload("res://assets/ost/stinger_day_6.wav"), 0],
-		10: [preload("res://assets/ost/stinger_day_7.wav"), 0],
+		0: [preload("res://assets/audio/ost/music_day_0_and_6_dream.wav"), 0],
+		1: [preload("res://assets/audio/ost/music_day_1_dream.wav"), 0],
+		2: [preload("res://assets/audio/ost/music_day_2_dream.wav"), 0],
+		3: [preload("res://assets/audio/ost/music_day_7_dream.wav"), 0],
+		4: [preload("res://assets/audio/ost/music_gameplay.wav"), 0],
+		5: [preload("res://assets/audio/ost/music_menu.wav"), 0],
+		6: [preload("res://assets/audio/ost/music_tutorial.wav"), 0],
+		7: [preload("res://assets/audio/ost/stinger_day_1.wav"), 0],
+		8: [preload("res://assets/audio/ost/stinger_day_2.wav"), 0],
+		9: [preload("res://assets/audio/ost/stinger_day_6.wav"), 0],
+		10: [preload("res://assets/audio/ost/stinger_day_7.wav"), 0],
 	}
 	
 	for song in song_list.values():
@@ -31,24 +31,24 @@ func load_ost() -> void:
 func load_sfx() -> void:
 	# Add SFX loads here
 	var sfx_list : Array[AudioStream] = [
-		preload("res://assets/sfx/chime.wav"),
-		preload("res://assets/sfx/door.wav"),
-		preload("res://assets/sfx/sfx_ale_beer.wav"),
-		preload("res://assets/sfx/sfx_bottles.wav"),
-		preload("res://assets/sfx/sfx_day_0_dream_clinking_glass.wav"),
-		preload("res://assets/sfx/sfx_day_0_dream_fire_1.wav"),
-		preload("res://assets/sfx/sfx_day_0_go_downstairs.wav"),
-		preload("res://assets/sfx/sfx_day_0_water_trickles.wav"),
-		preload("res://assets/sfx/sfx_day_0_window_creaking.wav"),
-		preload("res://assets/sfx/sfx_deliver_drink.wav"),
-		preload("res://assets/sfx/sfx_knife_cut_1.wav"),
-		preload("res://assets/sfx/sfx_knife_cut_2.wav"),
-		preload("res://assets/sfx/sfx_knife_cut_3.wav"),
-		preload("res://assets/sfx/sfx_mortar.wav"),
-		preload("res://assets/sfx/sfx_mug_1.wav"),
-		preload("res://assets/sfx/sfx_mug_2.wav"),
-		preload("res://assets/sfx/sfx_mug_3.wav"),
-		preload("res://assets/sfx/sfx_rooster.wav"),
+		preload("res://assets/audio/sfx/chime.wav"),
+		preload("res://assets/audio/sfx/door.wav"),
+		preload("res://assets/audio/sfx/sfx_ale_beer.wav"),
+		preload("res://assets/audio/sfx/sfx_bottles.wav"),
+		preload("res://assets/audio/sfx/sfx_day_0_dream_clinking_glass.wav"),
+		preload("res://assets/audio/sfx/sfx_day_0_dream_fire_1.wav"),
+		preload("res://assets/audio/sfx/sfx_day_0_go_downstairs.wav"),
+		preload("res://assets/audio/sfx/sfx_day_0_water_trickles.wav"),
+		preload("res://assets/audio/sfx/sfx_day_0_window_creaking.wav"),
+		preload("res://assets/audio/sfx/sfx_deliver_drink.wav"),
+		preload("res://assets/audio/sfx/sfx_knife_cut_1.wav"),
+		preload("res://assets/audio/sfx/sfx_knife_cut_2.wav"),
+		preload("res://assets/audio/sfx/sfx_knife_cut_3.wav"),
+		preload("res://assets/audio/sfx/sfx_mortar.wav"),
+		preload("res://assets/audio/sfx/sfx_mug_1.wav"),
+		preload("res://assets/audio/sfx/sfx_mug_2.wav"),
+		preload("res://assets/audio/sfx/sfx_mug_3.wav"),
+		preload("res://assets/audio/sfx/sfx_rooster.wav"),
 	]
 	
 	for sfx in sfx_list:
@@ -58,8 +58,8 @@ func load_sfx() -> void:
 func load_ui() -> void:
 	# Add UI loads here
 	var ui_list : Array[AudioStream] = [
-		preload("res://assets/sfx/sfx_ui_menu_1.wav"),
-		preload("res://assets/sfx/sfx_ui_menu_2.wav"),
+		preload("res://assets/audio/sfx/sfx_ui_menu_1.wav"),
+		preload("res://assets/audio/sfx/sfx_ui_menu_2.wav"),
 	]
 	
 	for ui in ui_list:
